@@ -100,6 +100,24 @@
   * （mammal）= a animal wrapped in petals alike
   * （verb）= hit with a board object
 
+## cam/kaemu/
+
+* cam【En】= ca - kae【嵌】+ m - mu【毋】
+* kam/kaem/【Du】= ka - kae【嵌】+ m - mu【毋】
+* comb/keumu/【originally En】= co - keu【綶】+ mb - mu【毋】
+
+![](/images/cam.jpeg)
+
+![](/images/comb.jpeg)
+
+* kae【嵌】= insert or embed
+* mu【毋】= close or coincide
+* keu【綶】= spiral wind (hair or something)
+* combined meanings =
+  * cam = a device which is inserted into the gap of others
+  * comb = a tool for spiral winding hair
+
+
 
 
 ## sad/saede/
