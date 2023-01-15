@@ -129,6 +129,23 @@
 * pe【拨】= toggle a handful of something
 * combined meanings = toggle a handful of hair up to fit for embedding a cap
 
+## can/kaen/
+
+* can【En】= ca - kae【勘｜欿】+ n - eng【嗯｜摁】
+* can【mid En】
+* can(n)【old En】
+
+![欿](/images/can_noun.jpeg)
+
+* kae【勘】= check or review 
+* eng【嗯】= confirm in spoken language
+  * neng【能】= confirm in formal language
+* eng【摁】= press into 
+* kae【欿】= sunken pit
+* combined meanings =
+  * verb【勘嗯】 = check and prove to be allowed
+  * noun【欿摁】 = a container like a sunken pit by pressing
+
 
 ## sad/saede/
 
