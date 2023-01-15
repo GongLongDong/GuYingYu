@@ -117,7 +117,17 @@
   * cam = a device which is inserted into the gap of others
   * comb = a tool for spiral winding hair
 
+## cap/kaepe/
 
+* cap【En】= ca - kae【嵌】+ p - pe【拨】
+* cappe【mid En】= ca - kae【嵌】+ ppe - pe【拨】
+* cæppe【old En】= cæ - kae【嵌】+ ppe - pe【拨】
+
+![](/images/put_a_cap.jpeg)
+
+* kae【嵌】= insert or embed
+* pe【拨】= toggle a handful of something
+* combined meanings = toggle a handful of hair up to fit for embedding a cap
 
 
 ## sad/saede/
