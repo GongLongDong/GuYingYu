@@ -10,9 +10,7 @@
 * bad【En】 = ba - bae【癍】+ d - de【得】
 * badde【mid En】 = ba - bae【癍】+ dde - de【得】
 
-
 > explanation of original Chinese pronunciations and characters 
-
 
  ![](/images/bad_apple.png)
  
@@ -71,9 +69,9 @@
 
 * bap【En】= ba - bae【扮】+ p - pe【拨｜𧸻】
 
-![](/images/roll_hair.jpeg)
-
 > explanation of original Chinese pronunciations and characters 
+
+![](/images/roll_hair.jpeg)
 
 * bae【扮】= grooming and combing hair
 * pe【拨】= toggle a handful of something
@@ -85,12 +83,12 @@
 * bat【En】= ba - bae【板｜瓣】+ t - te【挩】
 * bakke【mid En】= ba - bae【板｜瓣】+ kke - ke【磕】
 
+> explanation of original Chinese pronunciations and characters 
+
 ![瓣+挩](/images/bat_animal.webp)
 
 ![挩+挩](/images/bat_verb.jpeg)
 
-
-> explanation of original Chinese pronunciations and characters 
 
 * bae【板】= board or plate
 * bae【瓣】= petal 
@@ -105,6 +103,8 @@
 * cam【En】= ca - kae【嵌】+ m - mu【毋】
 * kam/kaem/【Du】= ka - kae【嵌】+ m - mu【毋】
 * comb/keumu/【originally En】= co - keu【綶】+ mb - mu【毋】
+
+> explanation of original Chinese pronunciations and characters 
 
 ![](/images/cam.jpeg)
 
@@ -123,17 +123,21 @@
 * cappe【mid En】= ca - kae【嵌】+ ppe - pe【拨】
 * cæppe【old En】= cæ - kae【嵌】+ ppe - pe【拨】
 
+> explanation of original Chinese pronunciations and characters 
+
 ![](/images/put_a_cap.jpeg)
 
 * kae【嵌】= insert or embed
 * pe【拨】= toggle a handful of something
 * combined meanings = toggle a handful of hair up to fit for embedding a cap
 
-## can/kaen/
+## can/kae-eng/
 
 * can【En】= ca - kae【勘｜欿】+ n - eng【嗯｜摁】
 * can【mid En】
 * can(n)【old En】
+
+> explanation of original Chinese pronunciations and characters 
 
 ![欿](/images/can_noun.jpeg)
 
@@ -145,6 +149,19 @@
 * combined meanings =
   * verb【勘嗯】 = check and prove to be allowed
   * noun【欿摁】 = a container like a sunken pit by pressing
+
+## cat/kaete/
+
+* cat【En】= kae【嵌】+ te【脱｜挩】
+
+> explanation of original Chinese pronunciations and characters 
+
+![](/images/cat.jpeg)
+
+* kae【嵌】= insert or embed
+* te【脱】= take off or finished as a suffix 
+* te【挩】= squeeze 
+* combined meanings = a animal which insert horny nails of the claw into the body of the prey to catch it, just like a comb inserting the hair
 
 
 ## sad/saede/
