@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" nonce="/CQ4UIBT2bbu+hdO54Vvg67XUmoV8xLYp6bhO1+7Hl4=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};/*! For license information please see nr-loader-rum-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{Mt:function(){return p},C5:function(){return u},OP:function(){return C},Yu:function(){return b},Dg:function(){return d},CX:function(){return s},GE:function(){return h},sU:function(){return R}});var n={};r.r(n),r.d(n,{agent:function(){return w},match:function(){return x},version:function(){return m}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},l={};function d(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=new o(t,f),(0,i.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=function(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for "+e+" was never set");return l[e]}(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function h(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var b=(0,i.mF)().o,g=r(3524),y=r(9206),w=null,m=null;if(navigator.userAgent){var k=navigator.userAgent,O=k.match(/Version\/(\S+)\s+Safari/);O&&-1===k.indexOf("Chrome")&&-1===k.indexOf("Chromium")&&(w="Safari",m=O[1])}function x(e,t){if(!w)return!1;if(e!==w)return!1;if(!t)return!0;if(!m)return!1;for(var r=m.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var E=r(2141),P=r(8283).B?window.sessionStorage:void 0,S="NRBA_SESSION_ID";var j=self.XMLHttpRequest,A=j&&j.prototype,q={};function C(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!q[e])throw new Error("Runtime for "+e+" was never set");return q[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;q[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===g.H?2e3:3e4,offset:(0,y.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==p(r,"privacy.cookies_enabled")&&P?(null===(a=P.getItem(S))&&(a=(0,E.ky)(16),P.setItem(S,a)),a):null,xhrWrappable:j&&A&&A.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,q[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function l(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},d={},p={on:h,addEventListener:h,removeEventListener:b,emit:_,get:y,listeners:g,context:v,buffer:w,abort:l,aborted:!1,isBuffering:m,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function _(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=v(i),s=g(e),f=s.length,l=0;l<f;l++)s[l].apply(c,r);var d=k()[u[e]];return d&&d.push([p,e,r,c]),c}}function h(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function y(t){return d[t]=d[t]||e(p,t)}function w(e,t){var r=k();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function m(e){return!!k()[u[e]]}function k(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Rl:function(){return n},ky:function(){return i}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={195:0,10:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:k(e,r,c)}),a}function l(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var d={};function p(){}function v(){}function _(){}var h={};u(h,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(h=g);var y=_.prototype=p.prototype=Object.create(h);function w(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function m(e,t){function i(n,o,a,c){var u=l(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function k(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=O(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=l(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function O(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var n=l(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,d;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return v.prototype=_,n(y,"constructor",{value:_,configurable:!0}),n(_,"constructor",{value:v,configurable:!0}),v.displayName=u(_,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===v||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,_):(e.__proto__=_,u(e,c,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},w(m.prototype),u(m.prototype,a,(function(){return this})),e.AsyncIterator=m,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new m(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},w(y),u(y,c,"Generator"),u(y,o,(function(){return this})),u(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),E(r),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;E(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},e}function l(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var d=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){l(o,n,i,a,c,"next",e)}function c(e){l(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var v=__webpack_require__(8539),_=__webpack_require__.n(v),h=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),y=__webpack_require__(9599),w=__webpack_require__(9206);var m=!1;var k=__webpack_require__(7036),O=__webpack_require__(745),x=__webpack_require__(8025);function E(e,t){return E=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},E(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,O.v)(t),(0,k.B)(t,"firstbyte",(0,w.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,E(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,w.zO)();(0,k.B)(this.agentIdentifier,"onload",e+(0,w.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,k.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())},i}(x.W);function q(e,t){return q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},q(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var C=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,q(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,w.zO)()?r.fid=(0,w.zO)()-t:t>(0,w.os)()&&t<=Date.now()?(t-=(0,w.os)(),r.fid=(0,w.zO)()-t):t=(0,w.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,w.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(x.W),R=__webpack_require__(4539),L="React",T="Angular",N="AngularJS",I="Backbone",B="Ember",M="Vue",D="Meteor",F="Zepto",G="Jquery";function W(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(N),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(T),window.Backbone&&e.push(I),window.Ember&&e.push(B),window.Vue&&e.push(M),window.Meteor&&e.push(D),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var H,z=__webpack_require__(8547),V=__webpack_require__(248),U=__webpack_require__(8873);function Z(e,t,r){return Z=X()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Q(i,r.prototype),i},Z.apply(null,arguments)}function X(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Q(e,t){return Q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Q(e,t)}var J,Y,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(H=self.navigator)?void 0:H.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne,ie,oe,ae=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,R.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,R.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+U.q+"/Detected"),n.B&&u((function(){W().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),z.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),z.T.supportabilityMetricSent=!0);var t=(0,V.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,V.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Y=SharedWorker;try{self.SharedWorker=r(Y,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),Z(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(x.W),ce=__webpack_require__(9011),ue=(0,e.n)();try{!function(){if(!m){var e=(0,h.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,h.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,y.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,w.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,w.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,w.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,w.zO)()].concat(_()(arguments)),n?null:this,i,r),n?void 0:this}}(0,y.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,w.zO)(),!1,t],void 0,void 0,r)}}(t.Z),m=!0}catch(e){}}}();var se=(0,ce.K)(t.Z);se.page_view_event&&new A(t.Z),se.page_view_timing&&new C(t.Z),se.metrics&&new ae(t.Z,ue),ne="lite",void 0===oe&&(oe=1e3),ie?setTimeout((function(){return p(ne)}),oe):n.B?c((function(){return p(ne)})):p(ne)}catch(e){var fe,le,de;null!=(fe=self)&&null!=(le=fe.newrelic)&&null!=(de=le.ee)&&de.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-rum-1221.min.25fcbbf1.map</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf63c3948de87f1">
+	<meta name="csrf-value" content="e4f76c4f03200f4b9df62512f81e41b7">
+	<meta name="csp-nonce" content="/CQ4UIBT2bbu+hdO54Vvg67XUmoV8xLYp6bhO1+7Hl4=">
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Man character stumbled over stone Royalty Free Vector Image</title>
+	<meta name="description" content="Man character stumbled over stone and dropped packet food. Vector flat cartoon illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+		<meta name="robots" content="max-image-preview:large">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/man-character-stumbled-over-stone-vector-13598355">
+	<meta property="og:title" content="Man character stumbled over stone vector image on VectorStock">
+	<meta property="og:description" content="Man character stumbled over stone and dropped packet food. Vector flat cartoon illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+	<meta property="og:image:url" content="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+	<meta property="og:image:secure_url" content="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="886">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/man-character-stumbled-over-stone-vector-13598355">
+	<meta name="twitter:title" content="Man character stumbled over stone vector image">
+	<meta name="twitter:description" content="Man character stumbled over stone and dropped packet food. Vector flat cartoon illustration">
+	<meta name="twitter:image" content="https://cdn1.vectorstock.com/i/thumb-large/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/man-character-stumbled-over-stone-vector-13598355">
+
+	<link rel="stylesheet" type="text/css" href="/cache/common1673316792.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/common-payment1673316792.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/vector1673316792.min.css">
+	<script nonce='/CQ4UIBT2bbu+hdO54Vvg67XUmoV8xLYp6bhO1+7Hl4='>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NL6HLLR');</script>
+	<script src="/cache/common1673314592.min.js"></script>
+	<script src="/cache/common-payment-paddle1673314592.min.js"></script>
+	<script src="/cache/vector1673314592.min.js"></script>
+</head>
+<body>
+
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6HLLR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="/" title="VectorStock&reg;">VectorStock&reg;</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="focused empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search&hellip;" maxlength="50" autofocus>
+								<button type="button" data-action="clear">&times;</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					</fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+	<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li data-action="login"><a href="/?login=1">Login&hellip;</a></li>
+							<li><a href="/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Login</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We&apos;re the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you&apos;re a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="/signup">Sign up now, it&rsquo;s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2"  maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Login</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors/over-vectors">
+							<span itemprop="name">Over Vectors</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+				</ol>
+
+				<h1>Man character stumbled over stone vector&nbsp;image</h1>
+
+				<figure class="target">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg" style="padding-top: 88.5%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.webp">
+							<source type="image/jpeg" srcset="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+							<img src="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg" importance="high" title="Man character stumbled over stone vector image" alt="Man character stumbled over stone">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="13598355">
+					<input type="hidden" id="vector_title" value="Man character stumbled over stone">
+					<input type="hidden" id="vector_description" value="Man character stumbled over stone and dropped packet food. Vector flat cartoon illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/man-character-stumbled-over-stone-vector-13598355">
+					<input type="hidden" id="vector_media" value="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+					<input type="hidden" id="vector_ratio" value="0.886">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="prettyvectors">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;label&quot;:&quot;Standard License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;label&quot;:&quot;Expanded License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: License type: Exclusive
+						-->
+						<div class="option" data-type="ownership">
+							<h6>
+								<span class="type">Ownership</span>
+								<a href="/faq/members/what-is-an-exclusive-buyout">Learn More</a>
+							</h6>
+							<div class="optgroup radgroup" data-id="rights" data-enabled="0">
+								<fieldset>
+									<label for="f_ownership_exclusive">
+										<input type="radio" id="f_ownership_exclusive" name="license" value="exclusive" tabindex="4">
+										<span class="label">Exclusive</span>
+										<span class="descr">If you would like to buy this vector exclusively, send the artist a request below:</span>
+										<button type="button" data-copy-process="Sending request" data-copy-success="Request has been sent">
+											<span class="icon"></span>
+											<span class="label">Ask for Exclusive Buyout</span>
+										</button>
+									</label>
+								</fieldset>
+							</div>
+							
+							<div class="help">
+								<p>Want to have this vector image all to yourself? An Exclusive Buyout secures the full rights of this vector.</p>
+								<p>We will remove this vector from our library and the artist will cease selling the&nbsp;artwork.</p>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked" >
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image"  checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>&#36;</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69&cent;</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Payment options (Exclusive)
+						-->
+						<div class="option" data-type="payment" data-license="exclusive">
+							<h6><span class="type">Payment</span></h6>
+							<div class="optgroup radgroup" data-license="exclusive">
+								<fieldset class="checked">
+									<label for="f_payment_exclusive_ppi">
+										<input type="radio" id="f_payment_exclusive_ppi" name="payment_exclusive" data-cost="499" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>499</var></span>
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="/faq/members/what-is-hire-a-designer">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We&rsquo;ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="landscape" class="target">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg" style="padding-top: 88.5%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.webp">
+							<source type="image/jpeg" srcset="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+							<img src="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg" importance="high" title="Man character stumbled over stone vector image" alt="Man character stumbled over stone">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"/></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"/></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"/></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"/></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>13598355</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="/royalty-free-vectors/vectors-by_prettyvectors" rel="nofollow">prettyvectors</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">&hearts;</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope>
+					<meta itemprop="contentUrl" content="https://cdn1.vectorstock.com/i/1000x1000/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn1.vectorstock.com/i/thumb-large/83/55/man-character-stumbled-over-stone-vector-13598355.jpg">
+					<meta itemprop="name" content="Man character stumbled over stone">
+					<meta itemprop="description" content="Man character stumbled over stone and dropped packet food. Vector flat cartoon illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="prettyvectors"/>
+					<meta itemprop="datePublished" content="2017-03-15">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/man-character-stumbled-over-stone-vector-13598355">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.webp 2x, https://cdn.vectorstock.com/i/preview-1x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.webp 3x, https://cdn.vectorstock.com/i/preview-1x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.webp 2x, https://cdn.vectorstock.com/i/preview-lt/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/24/27/yellow-shirt-cartoon-boy-feel-shock-because-vector-23192427.jpg" data-id="23192427" data-title="yellow shirt cartoon boy feel shock because" data-ratio="1" loading="lazy" alt="Yellow shirt cartoon boy feel shock because vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/stick-figure-man-and-a-hole-on-floor-vector-35949588">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.webp 2x, https://cdn.vectorstock.com/i/preview-1x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.webp 3x, https://cdn.vectorstock.com/i/preview-1x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.webp 2x, https://cdn.vectorstock.com/i/preview-lt/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/95/88/stick-figure-man-and-a-hole-on-floor-vector-35949588.jpg" data-id="35949588" data-title="stick figure man and a hole on floor" data-ratio="1.58" loading="lazy" alt="Stick figure man and a hole on floor vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/business-tricks-and-competitors-concept-vector-40410257">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/02/57/business-tricks-and-competitors-concept-vector-40410257.webp 2x, https://cdn.vectorstock.com/i/preview-1x/02/57/business-tricks-and-competitors-concept-vector-40410257.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/02/57/business-tricks-and-competitors-concept-vector-40410257.webp 3x, https://cdn.vectorstock.com/i/preview-1x/02/57/business-tricks-and-competitors-concept-vector-40410257.webp 2x, https://cdn.vectorstock.com/i/preview-lt/02/57/business-tricks-and-competitors-concept-vector-40410257.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/02/57/business-tricks-and-competitors-concept-vector-40410257.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/02/57/business-tricks-and-competitors-concept-vector-40410257.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/02/57/business-tricks-and-competitors-concept-vector-40410257.jpg" data-id="40410257" data-title="business tricks and competitors concept" data-ratio="1.5" loading="lazy" alt="Business tricks and competitors concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/boy-falling-stumble-tripping-over-stone-vector-15604262">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.webp 2x, https://cdn.vectorstock.com/i/preview-1x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.webp 3x, https://cdn.vectorstock.com/i/preview-1x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.webp 2x, https://cdn.vectorstock.com/i/preview-lt/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/42/62/boy-falling-stumble-tripping-over-stone-vector-15604262.jpg" data-id="15604262" data-title="boy falling stumble tripping over stone" data-ratio="1" loading="lazy" alt="Boy falling stumble tripping over stone vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/falling-down-people-kids-and-elderly-characters-vector-39709225">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.webp 2x, https://cdn.vectorstock.com/i/preview-1x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.webp 3x, https://cdn.vectorstock.com/i/preview-1x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.webp 2x, https://cdn.vectorstock.com/i/preview-lt/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/92/25/falling-down-people-kids-and-elderly-characters-vector-39709225.jpg" data-id="39709225" data-title="falling down people kids and elderly characters" data-ratio="1.28" loading="lazy" alt="Falling down people kids and elderly characters vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/falling-down-man-tripped-on-stone-flat-vector-44712549">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.webp 2x, https://cdn.vectorstock.com/i/preview-1x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.webp 3x, https://cdn.vectorstock.com/i/preview-1x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.webp 2x, https://cdn.vectorstock.com/i/preview-lt/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/25/49/falling-down-man-tripped-on-stone-flat-vector-44712549.jpg" data-id="44712549" data-title="falling down man tripped on stone flat" data-ratio="1" loading="lazy" alt="Falling down man tripped on stone flat vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/businessman-fell-down-before-finish-line-vector-36229606">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/96/06/businessman-fell-down-before-finish-line-vector-36229606.webp 2x, https://cdn.vectorstock.com/i/preview-1x/96/06/businessman-fell-down-before-finish-line-vector-36229606.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/96/06/businessman-fell-down-before-finish-line-vector-36229606.webp 3x, https://cdn.vectorstock.com/i/preview-1x/96/06/businessman-fell-down-before-finish-line-vector-36229606.webp 2x, https://cdn.vectorstock.com/i/preview-lt/96/06/businessman-fell-down-before-finish-line-vector-36229606.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/96/06/businessman-fell-down-before-finish-line-vector-36229606.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/96/06/businessman-fell-down-before-finish-line-vector-36229606.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/96/06/businessman-fell-down-before-finish-line-vector-36229606.jpg" data-id="36229606" data-title="businessman fell down before finish line" data-ratio="1.416" loading="lazy" alt="Businessman fell down before finish line vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/fall-vector-1947333">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/73/33/fall-vector-1947333.webp 2x, https://cdn.vectorstock.com/i/preview-1x/73/33/fall-vector-1947333.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/73/33/fall-vector-1947333.webp 3x, https://cdn.vectorstock.com/i/preview-1x/73/33/fall-vector-1947333.webp 2x, https://cdn.vectorstock.com/i/preview-lt/73/33/fall-vector-1947333.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/73/33/fall-vector-1947333.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/73/33/fall-vector-1947333.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/73/33/fall-vector-1947333.jpg" data-id="1947333" data-title="fall" data-ratio="1" loading="lazy" alt="Fall vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/business-man-run-over-the-negative-graph-vector-2147982">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/79/82/business-man-run-over-the-negative-graph-vector-2147982.webp 2x, https://cdn.vectorstock.com/i/preview-1x/79/82/business-man-run-over-the-negative-graph-vector-2147982.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/79/82/business-man-run-over-the-negative-graph-vector-2147982.webp 3x, https://cdn.vectorstock.com/i/preview-1x/79/82/business-man-run-over-the-negative-graph-vector-2147982.webp 2x, https://cdn.vectorstock.com/i/preview-lt/79/82/business-man-run-over-the-negative-graph-vector-2147982.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/79/82/business-man-run-over-the-negative-graph-vector-2147982.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/79/82/business-man-run-over-the-negative-graph-vector-2147982.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/79/82/business-man-run-over-the-negative-graph-vector-2147982.jpg" data-id="2147982" data-title="business man run over the negative graph" data-ratio="1" loading="lazy" alt="Business man run over the negative graph vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/pictograph-set-falling-down-stairs-vector-32827412">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/74/12/pictograph-set-falling-down-stairs-vector-32827412.webp 2x, https://cdn.vectorstock.com/i/preview-1x/74/12/pictograph-set-falling-down-stairs-vector-32827412.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/74/12/pictograph-set-falling-down-stairs-vector-32827412.webp 3x, https://cdn.vectorstock.com/i/preview-1x/74/12/pictograph-set-falling-down-stairs-vector-32827412.webp 2x, https://cdn.vectorstock.com/i/preview-lt/74/12/pictograph-set-falling-down-stairs-vector-32827412.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/74/12/pictograph-set-falling-down-stairs-vector-32827412.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/74/12/pictograph-set-falling-down-stairs-vector-32827412.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/74/12/pictograph-set-falling-down-stairs-vector-32827412.jpg" data-id="32827412" data-title="pictograph set falling down stairs" data-ratio="0.752" loading="lazy" alt="Pictograph set falling down stairs vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/businessman-escape-above-a-large-hole-vector-25338030">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/30/businessman-escape-above-a-large-hole-vector-25338030.webp 2x, https://cdn.vectorstock.com/i/preview-1x/80/30/businessman-escape-above-a-large-hole-vector-25338030.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/80/30/businessman-escape-above-a-large-hole-vector-25338030.webp 3x, https://cdn.vectorstock.com/i/preview-1x/80/30/businessman-escape-above-a-large-hole-vector-25338030.webp 2x, https://cdn.vectorstock.com/i/preview-lt/80/30/businessman-escape-above-a-large-hole-vector-25338030.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/30/businessman-escape-above-a-large-hole-vector-25338030.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/80/30/businessman-escape-above-a-large-hole-vector-25338030.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/80/30/businessman-escape-above-a-large-hole-vector-25338030.jpg" data-id="25338030" data-title="businessman escape above a large hole" data-ratio="0.952" loading="lazy" alt="Businessman escape above a large hole vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.webp 2x, https://cdn.vectorstock.com/i/preview-1x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.webp 3x, https://cdn.vectorstock.com/i/preview-1x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.webp 2x, https://cdn.vectorstock.com/i/preview-lt/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/00/19/businessman-falling-over-cliffs-into-abyss-flat-vector-37070019.jpg" data-id="37070019" data-title="businessman falling over cliffs into abyss flat" data-ratio="1" loading="lazy" alt="Businessman falling over cliffs into abyss flat vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/a-careless-man-who-fell-off-from-the-chair-vector-39437293">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.webp 2x, https://cdn.vectorstock.com/i/preview-1x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.webp 3x, https://cdn.vectorstock.com/i/preview-1x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.webp 2x, https://cdn.vectorstock.com/i/preview-lt/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/72/93/a-careless-man-who-fell-off-from-the-chair-vector-39437293.jpg" data-id="39437293" data-title="a careless man who fell off from the chair" data-ratio="1.232" loading="lazy" alt="A careless man who fell off from the chair vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/set-business-people-running-away-from-big-stone-vector-27121074">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.webp 2x, https://cdn.vectorstock.com/i/preview-1x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.webp 3x, https://cdn.vectorstock.com/i/preview-1x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.webp 2x, https://cdn.vectorstock.com/i/preview-lt/10/74/set-business-people-running-away-from-big-stone-vector-27121074.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/10/74/set-business-people-running-away-from-big-stone-vector-27121074.jpg" data-id="27121074" data-title="set business people running away from big stone" data-ratio="1.132" loading="lazy" alt="Set business people running away from big stone vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.webp 2x, https://cdn.vectorstock.com/i/preview-1x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.webp 3x, https://cdn.vectorstock.com/i/preview-1x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.webp 2x, https://cdn.vectorstock.com/i/preview-lt/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/61/99/stickman-cartoon-of-man-falling-stumble-trip-over-vector-17686199.jpg" data-id="17686199" data-title="stickman cartoon of man falling stumble trip over" data-ratio="1.476" loading="lazy" alt="Stickman cartoon of man falling stumble trip over vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/fall-down-silhouette-vector-25093246">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/32/46/fall-down-silhouette-vector-25093246.webp 2x, https://cdn.vectorstock.com/i/preview-1x/32/46/fall-down-silhouette-vector-25093246.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/32/46/fall-down-silhouette-vector-25093246.webp 3x, https://cdn.vectorstock.com/i/preview-1x/32/46/fall-down-silhouette-vector-25093246.webp 2x, https://cdn.vectorstock.com/i/preview-lt/32/46/fall-down-silhouette-vector-25093246.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/32/46/fall-down-silhouette-vector-25093246.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/32/46/fall-down-silhouette-vector-25093246.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/32/46/fall-down-silhouette-vector-25093246.jpg" data-id="25093246" data-title="fall down silhouette" data-ratio="0.768" loading="lazy" alt="Fall down silhouette vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/falling-down-people-people-different-ages-vector-33036078">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/60/78/falling-down-people-people-different-ages-vector-33036078.webp 2x, https://cdn.vectorstock.com/i/preview-1x/60/78/falling-down-people-people-different-ages-vector-33036078.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/60/78/falling-down-people-people-different-ages-vector-33036078.webp 3x, https://cdn.vectorstock.com/i/preview-1x/60/78/falling-down-people-people-different-ages-vector-33036078.webp 2x, https://cdn.vectorstock.com/i/preview-lt/60/78/falling-down-people-people-different-ages-vector-33036078.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/60/78/falling-down-people-people-different-ages-vector-33036078.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/60/78/falling-down-people-people-different-ages-vector-33036078.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/60/78/falling-down-people-people-different-ages-vector-33036078.jpg" data-id="33036078" data-title="falling down people people different ages" data-ratio="2.176" loading="lazy" alt="Falling down people people different ages vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/set-of-18-people-falling-flat-vector-44231001">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/01/set-of-18-people-falling-flat-vector-44231001.webp 2x, https://cdn.vectorstock.com/i/preview-1x/10/01/set-of-18-people-falling-flat-vector-44231001.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/10/01/set-of-18-people-falling-flat-vector-44231001.webp 3x, https://cdn.vectorstock.com/i/preview-1x/10/01/set-of-18-people-falling-flat-vector-44231001.webp 2x, https://cdn.vectorstock.com/i/preview-lt/10/01/set-of-18-people-falling-flat-vector-44231001.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/01/set-of-18-people-falling-flat-vector-44231001.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/10/01/set-of-18-people-falling-flat-vector-44231001.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/10/01/set-of-18-people-falling-flat-vector-44231001.jpg" data-id="44231001" data-title="set of 18 people falling flat" data-ratio="3" loading="lazy" alt="Set of 18 people falling flat vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/falling-black-man-person-drop-down-failure-vector-44838899">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.webp 2x, https://cdn.vectorstock.com/i/preview-1x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.webp 3x, https://cdn.vectorstock.com/i/preview-1x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.webp 2x, https://cdn.vectorstock.com/i/preview-lt/88/99/falling-black-man-person-drop-down-failure-vector-44838899.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/88/99/falling-black-man-person-drop-down-failure-vector-44838899.jpg" data-id="44838899" data-title="falling black man person drop down failure" data-ratio="1.324" loading="lazy" alt="Falling black man person drop down failure vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/set-of-18-people-falling-flat-vector-44191554">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/54/set-of-18-people-falling-flat-vector-44191554.webp 2x, https://cdn.vectorstock.com/i/preview-1x/15/54/set-of-18-people-falling-flat-vector-44191554.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/15/54/set-of-18-people-falling-flat-vector-44191554.webp 3x, https://cdn.vectorstock.com/i/preview-1x/15/54/set-of-18-people-falling-flat-vector-44191554.webp 2x, https://cdn.vectorstock.com/i/preview-lt/15/54/set-of-18-people-falling-flat-vector-44191554.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/54/set-of-18-people-falling-flat-vector-44191554.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/15/54/set-of-18-people-falling-flat-vector-44191554.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/15/54/set-of-18-people-falling-flat-vector-44191554.jpg" data-id="44191554" data-title="set of 18 people falling flat" data-ratio="3" loading="lazy" alt="Set of 18 people falling flat vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="36475765" data-title="house prices decline icon line art" data-src="https://cdn1.vectorstock.com/i/thumbs/57/65/house-prices-decline-icon-line-art-vector-36475765.jpg"><a href="//www.vectorstock.com/royalty-free-vector/house-prices-decline-icon-line-art-vector-36475765" title="house prices decline icon line art vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/57/65/house-prices-decline-icon-line-art-vector-36475765.jpg" title="house prices decline icon line art" alt="house prices decline icon line art vector image"></noscript></a></li>
+						<li data-id="39955608" data-title="man falling down office guy accident person" data-src="https://cdn4.vectorstock.com/i/thumbs/56/08/man-falling-down-office-guy-accident-person-vector-39955608.jpg"><a href="//www.vectorstock.com/royalty-free-vector/man-falling-down-office-guy-accident-person-vector-39955608" title="man falling down office guy accident person vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/56/08/man-falling-down-office-guy-accident-person-vector-39955608.jpg" title="man falling down office guy accident person" alt="man falling down office guy accident person vector image"></noscript></a></li>
+						<li data-id="43573882" data-title="single one line drawing arabian businessman jump" data-src="https://cdn3.vectorstock.com/i/thumbs/38/82/single-one-line-drawing-arabian-businessman-jump-vector-43573882.jpg"><a href="//www.vectorstock.com/royalty-free-vector/single-one-line-drawing-arabian-businessman-jump-vector-43573882" title="single one line drawing arabian businessman jump vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/38/82/single-one-line-drawing-arabian-businessman-jump-vector-43573882.jpg" title="single one line drawing arabian businessman jump" alt="single one line drawing arabian businessman jump vector image"></noscript></a></li>
+						<li data-id="44150847" data-title="halloween wineglass with blood drop spilling" data-src="https://cdn3.vectorstock.com/i/thumbs/08/47/halloween-wineglass-with-blood-drop-spilling-vector-44150847.jpg"><a href="//www.vectorstock.com/royalty-free-vector/halloween-wineglass-with-blood-drop-spilling-vector-44150847" title="halloween wineglass with blood drop spilling vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/08/47/halloween-wineglass-with-blood-drop-spilling-vector-44150847.jpg" title="halloween wineglass with blood drop spilling" alt="halloween wineglass with blood drop spilling vector image"></noscript></a></li>
+						<li data-id="37041942" data-title="bear market at covid19 landing page template set" data-src="https://cdn3.vectorstock.com/i/thumbs/19/42/bear-market-at-covid19-landing-page-template-set-vector-37041942.jpg"><a href="//www.vectorstock.com/royalty-free-vector/bear-market-at-covid19-landing-page-template-set-vector-37041942" title="bear market at covid19 landing page template set vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/19/42/bear-market-at-covid19-landing-page-template-set-vector-37041942.jpg" title="bear market at covid19 landing page template set" alt="bear market at covid19 landing page template set vector image"></noscript></a></li>
+						<li data-id="43934163" data-title="lost investment financial crisis and money loss" data-src="https://cdn4.vectorstock.com/i/thumbs/41/63/lost-investment-financial-crisis-and-money-loss-vector-43934163.jpg"><a href="//www.vectorstock.com/royalty-free-vector/lost-investment-financial-crisis-and-money-loss-vector-43934163" title="lost investment financial crisis and money loss vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/41/63/lost-investment-financial-crisis-and-money-loss-vector-43934163.jpg" title="lost investment financial crisis and money loss" alt="lost investment financial crisis and money loss vector image"></noscript></a></li>
+						<li data-id="23443594" data-title="caution wet floor" data-src="https://cdn5.vectorstock.com/i/thumbs/35/94/caution-wet-floor-vector-23443594.jpg"><a href="//www.vectorstock.com/royalty-free-vector/caution-wet-floor-vector-23443594" title="caution wet floor vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/35/94/caution-wet-floor-vector-23443594.jpg" title="caution wet floor" alt="caution wet floor vector image"></noscript></a></li>
+						<li data-id="1689347" data-title="business man with parachute on the target" data-src="https://cdn3.vectorstock.com/i/thumbs/93/47/business-man-with-parachute-on-the-target-vector-1689347.jpg"><a href="//www.vectorstock.com/royalty-free-vector/business-man-with-parachute-on-the-target-vector-1689347" title="business man with parachute on the target vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/93/47/business-man-with-parachute-on-the-target-vector-1689347.jpg" title="business man with parachute on the target" alt="business man with parachute on the target vector image"></noscript></a></li>
+						<li data-id="24290444" data-title="set of falling man isolated falling from chair" data-src="https://cdn5.vectorstock.com/i/thumbs/04/44/set-of-falling-man-isolated-falling-from-chair-vector-24290444.jpg"><a href="//www.vectorstock.com/royalty-free-vector/set-of-falling-man-isolated-falling-from-chair-vector-24290444" title="set of falling man isolated falling from chair vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/04/44/set-of-falling-man-isolated-falling-from-chair-vector-24290444.jpg" title="set of falling man isolated falling from chair" alt="set of falling man isolated falling from chair vector image"></noscript></a></li>
+						<li data-id="40792092" data-title="down arrow chart and business woman having money" data-src="https://cdn3.vectorstock.com/i/thumbs/20/92/down-arrow-chart-and-business-woman-having-money-vector-40792092.jpg"><a href="//www.vectorstock.com/royalty-free-vector/down-arrow-chart-and-business-woman-having-money-vector-40792092" title="down arrow chart and business woman having money vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/20/92/down-arrow-chart-and-business-woman-having-money-vector-40792092.jpg" title="down arrow chart and business woman having money" alt="down arrow chart and business woman having money vector image"></noscript></a></li>
+						<li data-id="32512652" data-title="slippery floor" data-src="https://cdn3.vectorstock.com/i/thumbs/26/52/slippery-floor-vector-32512652.jpg"><a href="//www.vectorstock.com/royalty-free-vector/slippery-floor-vector-32512652" title="slippery floor vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/26/52/slippery-floor-vector-32512652.jpg" title="slippery floor" alt="slippery floor vector image"></noscript></a></li>
+						<li data-id="20961682" data-title="bankrupt sales schedule down" data-src="https://cdn3.vectorstock.com/i/thumbs/16/82/bankrupt-sales-schedule-down-vector-20961682.jpg"><a href="//www.vectorstock.com/royalty-free-vector/bankrupt-sales-schedule-down-vector-20961682" title="bankrupt sales schedule down vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/16/82/bankrupt-sales-schedule-down-vector-20961682.jpg" title="bankrupt sales schedule down" alt="bankrupt sales schedule down vector image"></noscript></a></li>
+						<li data-id="36447464" data-title="falling persons old people fall on wet floor" data-src="https://cdn5.vectorstock.com/i/thumbs/74/64/falling-persons-old-people-fall-on-wet-floor-vector-36447464.jpg"><a href="//www.vectorstock.com/royalty-free-vector/falling-persons-old-people-fall-on-wet-floor-vector-36447464" title="falling persons old people fall on wet floor vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/74/64/falling-persons-old-people-fall-on-wet-floor-vector-36447464.jpg" title="falling persons old people fall on wet floor" alt="falling persons old people fall on wet floor vector image"></noscript></a></li>
+						<li data-id="37467265" data-title="person falling down from above fall young man" data-src="https://cdn1.vectorstock.com/i/thumbs/72/65/person-falling-down-from-above-fall-young-man-vector-37467265.jpg"><a href="//www.vectorstock.com/royalty-free-vector/person-falling-down-from-above-fall-young-man-vector-37467265" title="person falling down from above fall young man vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/72/65/person-falling-down-from-above-fall-young-man-vector-37467265.jpg" title="person falling down from above fall young man" alt="person falling down from above fall young man vector image"></noscript></a></li>
+						<li data-id="42486407" data-title="finance decrease and crisis graph financial" data-src="https://cdn3.vectorstock.com/i/thumbs/64/07/finance-decrease-and-crisis-graph-financial-vector-42486407.jpg"><a href="//www.vectorstock.com/royalty-free-vector/finance-decrease-and-crisis-graph-financial-vector-42486407" title="finance decrease and crisis graph financial vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/64/07/finance-decrease-and-crisis-graph-financial-vector-42486407.jpg" title="finance decrease and crisis graph financial" alt="finance decrease and crisis graph financial vector image"></noscript></a></li>
+						<li data-id="43561728" data-title="cryptocurrency crash concept" data-src="https://cdn4.vectorstock.com/i/thumbs/17/28/cryptocurrency-crash-concept-vector-43561728.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cryptocurrency-crash-concept-vector-43561728" title="cryptocurrency crash concept vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/17/28/cryptocurrency-crash-concept-vector-43561728.jpg" title="cryptocurrency crash concept" alt="cryptocurrency crash concept vector image"></noscript></a></li>
+						<li data-id="1484770" data-title="world is falling apart" data-src="https://cdn1.vectorstock.com/i/thumbs/47/70/world-is-falling-apart-vector-1484770.jpg"><a href="//www.vectorstock.com/royalty-free-vector/world-is-falling-apart-vector-1484770" title="world is falling apart vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/47/70/world-is-falling-apart-vector-1484770.jpg" title="world is falling apart" alt="world is falling apart vector image"></noscript></a></li>
+						<li data-id="21068750" data-title="silhouettes of people falling" data-src="https://cdn1.vectorstock.com/i/thumbs/87/50/silhouettes-of-people-falling-vector-21068750.jpg"><a href="//www.vectorstock.com/royalty-free-vector/silhouettes-of-people-falling-vector-21068750" title="silhouettes of people falling vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/87/50/silhouettes-of-people-falling-vector-21068750.jpg" title="silhouettes of people falling" alt="silhouettes of people falling vector image"></noscript></a></li>
+						<li data-id="22708188" data-title="african businessman who create dream graphs" data-src="https://cdn4.vectorstock.com/i/thumbs/81/88/african-businessman-who-create-dream-graphs-vector-22708188.jpg"><a href="//www.vectorstock.com/royalty-free-vector/african-businessman-who-create-dream-graphs-vector-22708188" title="african businessman who create dream graphs vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/81/88/african-businessman-who-create-dream-graphs-vector-22708188.jpg" title="african businessman who create dream graphs" alt="african businessman who create dream graphs vector image"></noscript></a></li>
+						<li data-id="42105881" data-title="flat young and old people slip on wet floor" data-src="https://cdn2.vectorstock.com/i/thumbs/58/81/flat-young-and-old-people-slip-on-wet-floor-vector-42105881.jpg"><a href="//www.vectorstock.com/royalty-free-vector/flat-young-and-old-people-slip-on-wet-floor-vector-42105881" title="flat young and old people slip on wet floor vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/58/81/flat-young-and-old-people-slip-on-wet-floor-vector-42105881.jpg" title="flat young and old people slip on wet floor" alt="flat young and old people slip on wet floor vector image"></noscript></a></li>
+						<li data-id="42950625" data-title="warehouse dangerous accident with man emergency" data-src="https://cdn1.vectorstock.com/i/thumbs/06/25/warehouse-dangerous-accident-with-man-emergency-vector-42950625.jpg"><a href="//www.vectorstock.com/royalty-free-vector/warehouse-dangerous-accident-with-man-emergency-vector-42950625" title="warehouse dangerous accident with man emergency vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/06/25/warehouse-dangerous-accident-with-man-emergency-vector-42950625.jpg" title="warehouse dangerous accident with man emergency" alt="warehouse dangerous accident with man emergency vector image"></noscript></a></li>
+						<li data-id="41427089" data-title="man falling down lying on ground in pain" data-src="https://cdn5.vectorstock.com/i/thumbs/70/89/man-falling-down-lying-on-ground-in-pain-vector-41427089.jpg"><a href="//www.vectorstock.com/royalty-free-vector/man-falling-down-lying-on-ground-in-pain-vector-41427089" title="man falling down lying on ground in pain vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/70/89/man-falling-down-lying-on-ground-in-pain-vector-41427089.jpg" title="man falling down lying on ground in pain" alt="man falling down lying on ground in pain vector image"></noscript></a></li>
+						<li data-id="4248805" data-title="businessman trip his friend up" data-src="https://cdn1.vectorstock.com/i/thumbs/88/05/businessman-trip-his-friend-up-vector-4248805.jpg"><a href="//www.vectorstock.com/royalty-free-vector/businessman-trip-his-friend-up-vector-4248805" title="businessman trip his friend up vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/88/05/businessman-trip-his-friend-up-vector-4248805.jpg" title="businessman trip his friend up" alt="businessman trip his friend up vector image"></noscript></a></li>
+						<li data-id="42311143" data-title="climate change concept" data-src="https://cdn4.vectorstock.com/i/thumbs/11/43/climate-change-concept-vector-42311143.jpg"><a href="//www.vectorstock.com/royalty-free-vector/climate-change-concept-vector-42311143" title="climate change concept vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/11/43/climate-change-concept-vector-42311143.jpg" title="climate change concept" alt="climate change concept vector image"></noscript></a></li>
+						<li data-id="2928440" data-title="business chart decrease" data-src="https://cdn1.vectorstock.com/i/thumbs/84/40/business-chart-decrease-vector-2928440.jpg"><a href="//www.vectorstock.com/royalty-free-vector/business-chart-decrease-vector-2928440" title="business chart decrease vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/84/40/business-chart-decrease-vector-2928440.jpg" title="business chart decrease" alt="business chart decrease vector image"></noscript></a></li>
+						<li data-id="1641890" data-title="going down" data-src="https://cdn1.vectorstock.com/i/thumbs/18/90/going-down-vector-1641890.jpg"><a href="//www.vectorstock.com/royalty-free-vector/going-down-vector-1641890" title="going down vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/18/90/going-down-vector-1641890.jpg" title="going down" alt="going down vector image"></noscript></a></li>
+						<li data-id="30489990" data-title="wet floor danger caution sign set slippery floor" data-src="https://cdn1.vectorstock.com/i/thumbs/99/90/wet-floor-danger-caution-sign-set-slippery-floor-vector-30489990.jpg"><a href="//www.vectorstock.com/royalty-free-vector/wet-floor-danger-caution-sign-set-slippery-floor-vector-30489990" title="wet floor danger caution sign set slippery floor vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/99/90/wet-floor-danger-caution-sign-set-slippery-floor-vector-30489990.jpg" title="wet floor danger caution sign set slippery floor" alt="wet floor danger caution sign set slippery floor vector image"></noscript></a></li>
+						<li data-id="34186373" data-title="bankruptcy and financial crisis economy down" data-src="https://cdn4.vectorstock.com/i/thumbs/63/73/bankruptcy-and-financial-crisis-economy-down-vector-34186373.jpg"><a href="//www.vectorstock.com/royalty-free-vector/bankruptcy-and-financial-crisis-economy-down-vector-34186373" title="bankruptcy and financial crisis economy down vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/63/73/bankruptcy-and-financial-crisis-economy-down-vector-34186373.jpg" title="bankruptcy and financial crisis economy down" alt="bankruptcy and financial crisis economy down vector image"></noscript></a></li>
+						<li data-id="29096491" data-title="investor lose money on stock market website" data-src="https://cdn2.vectorstock.com/i/thumbs/64/91/investor-lose-money-on-stock-market-website-vector-29096491.jpg"><a href="//www.vectorstock.com/royalty-free-vector/investor-lose-money-on-stock-market-website-vector-29096491" title="investor lose money on stock market website vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/64/91/investor-lose-money-on-stock-market-website-vector-29096491.jpg" title="investor lose money on stock market website" alt="investor lose money on stock market website vector image"></noscript></a></li>
+						<li data-id="37076866" data-title="business collapse" data-src="https://cdn2.vectorstock.com/i/thumbs/68/66/business-collapse-vector-37076866.jpg"><a href="//www.vectorstock.com/royalty-free-vector/business-collapse-vector-37076866" title="business collapse vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/68/66/business-collapse-vector-37076866.jpg" title="business collapse" alt="business collapse vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-similar-to_13598355" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="/royalty-free-vectors/vectors-by_prettyvectors" rel="nofollow">prettyvectors</a></strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/economy-recession-financical-crisis-business-vector-37907215">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/15/economy-recession-financical-crisis-business-vector-37907215.webp 2x, https://cdn.vectorstock.com/i/preview-1x/72/15/economy-recession-financical-crisis-business-vector-37907215.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/72/15/economy-recession-financical-crisis-business-vector-37907215.webp 3x, https://cdn.vectorstock.com/i/preview-1x/72/15/economy-recession-financical-crisis-business-vector-37907215.webp 2x, https://cdn.vectorstock.com/i/preview-lt/72/15/economy-recession-financical-crisis-business-vector-37907215.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/15/economy-recession-financical-crisis-business-vector-37907215.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/72/15/economy-recession-financical-crisis-business-vector-37907215.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/72/15/economy-recession-financical-crisis-business-vector-37907215.jpg" data-id="37907215" data-title="economy recession financical crisis business" data-ratio="1.272" loading="lazy" alt="Economy recession financical crisis business vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/careless-inattentive-businessman-office-worker-vector-14661952">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.webp 2x, https://cdn.vectorstock.com/i/preview-1x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.webp 3x, https://cdn.vectorstock.com/i/preview-1x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.webp 2x, https://cdn.vectorstock.com/i/preview-lt/19/52/careless-inattentive-businessman-office-worker-vector-14661952.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/19/52/careless-inattentive-businessman-office-worker-vector-14661952.jpg" data-id="14661952" data-title="careless inattentive businessman office worker" data-ratio="0.78" loading="lazy" alt="Careless inattentive businessman office worker vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/business-fail-vector-13713764">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/37/64/business-fail-vector-13713764.webp 2x, https://cdn.vectorstock.com/i/preview-1x/37/64/business-fail-vector-13713764.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/37/64/business-fail-vector-13713764.webp 3x, https://cdn.vectorstock.com/i/preview-1x/37/64/business-fail-vector-13713764.webp 2x, https://cdn.vectorstock.com/i/preview-lt/37/64/business-fail-vector-13713764.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/37/64/business-fail-vector-13713764.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/37/64/business-fail-vector-13713764.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/37/64/business-fail-vector-13713764.jpg" data-id="13713764" data-title="business fail" data-ratio="1.116" loading="lazy" alt="Business fail vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/busy-man-character-going-the-street-vector-14549623">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/96/23/busy-man-character-going-the-street-vector-14549623.webp 2x, https://cdn.vectorstock.com/i/preview-1x/96/23/busy-man-character-going-the-street-vector-14549623.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/96/23/busy-man-character-going-the-street-vector-14549623.webp 3x, https://cdn.vectorstock.com/i/preview-1x/96/23/busy-man-character-going-the-street-vector-14549623.webp 2x, https://cdn.vectorstock.com/i/preview-lt/96/23/busy-man-character-going-the-street-vector-14549623.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/96/23/busy-man-character-going-the-street-vector-14549623.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/96/23/busy-man-character-going-the-street-vector-14549623.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/96/23/busy-man-character-going-the-street-vector-14549623.jpg" data-id="14549623" data-title="busy man character going the street" data-ratio="1.016" loading="lazy" alt="Busy man character going the street vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/people-man-woman-characters-playing-chess-concept-vector-42320336">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.webp 2x, https://cdn.vectorstock.com/i/preview-1x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.webp 3x, https://cdn.vectorstock.com/i/preview-1x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.webp 2x, https://cdn.vectorstock.com/i/preview-lt/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/03/36/people-man-woman-characters-playing-chess-concept-vector-42320336.jpg" data-id="42320336" data-title="people man woman characters playing chess concept" data-ratio="2.212" loading="lazy" alt="People man woman characters playing chess concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/businessman-office-worker-character-jumps-vector-14218953">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/89/53/businessman-office-worker-character-jumps-vector-14218953.webp 2x, https://cdn.vectorstock.com/i/preview-1x/89/53/businessman-office-worker-character-jumps-vector-14218953.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/89/53/businessman-office-worker-character-jumps-vector-14218953.webp 3x, https://cdn.vectorstock.com/i/preview-1x/89/53/businessman-office-worker-character-jumps-vector-14218953.webp 2x, https://cdn.vectorstock.com/i/preview-lt/89/53/businessman-office-worker-character-jumps-vector-14218953.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/89/53/businessman-office-worker-character-jumps-vector-14218953.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/89/53/businessman-office-worker-character-jumps-vector-14218953.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/89/53/businessman-office-worker-character-jumps-vector-14218953.jpg" data-id="14218953" data-title="businessman office worker character jumps" data-ratio="1.284" loading="lazy" alt="Businessman office worker character jumps vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/people-man-woman-characters-playing-chess-concept-vector-42320335">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.webp 2x, https://cdn.vectorstock.com/i/preview-1x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.webp 3x, https://cdn.vectorstock.com/i/preview-1x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.webp 2x, https://cdn.vectorstock.com/i/preview-lt/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/03/35/people-man-woman-characters-playing-chess-concept-vector-42320335.jpg" data-id="42320335" data-title="people man woman characters playing chess concept" data-ratio="1.48" loading="lazy" alt="People man woman characters playing chess concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/careless-inattentive-business-woman-office-worker-vector-14661968">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.webp 2x, https://cdn.vectorstock.com/i/preview-1x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.webp 3x, https://cdn.vectorstock.com/i/preview-1x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.webp 2x, https://cdn.vectorstock.com/i/preview-lt/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/19/68/careless-inattentive-business-woman-office-worker-vector-14661968.jpg" data-id="14661968" data-title="careless inattentive business woman office worker" data-ratio="0.776" loading="lazy" alt="Careless inattentive business woman office worker vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/man-tourist-character-looking-on-mountain-vector-38877651">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.webp 2x, https://cdn.vectorstock.com/i/preview-1x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.webp 3x, https://cdn.vectorstock.com/i/preview-1x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.webp 2x, https://cdn.vectorstock.com/i/preview-lt/76/51/man-tourist-character-looking-on-mountain-vector-38877651.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/76/51/man-tourist-character-looking-on-mountain-vector-38877651.jpg" data-id="38877651" data-title="man tourist character looking on mountain" data-ratio="1.052" loading="lazy" alt="Man tourist character looking on mountain vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/business-people-office-workers-team-jump-over-rock-vector-39346101">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.webp 2x, https://cdn.vectorstock.com/i/preview-1x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.webp 3x, https://cdn.vectorstock.com/i/preview-1x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.webp 2x, https://cdn.vectorstock.com/i/preview-lt/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/61/01/business-people-office-workers-team-jump-over-rock-vector-39346101.jpg" data-id="39346101" data-title="business people office workers team jump over rock" data-ratio="1.78" loading="lazy" alt="Business people office workers team jump over rock vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="13964499" data-title="angry unhappy businessman character" data-src="https://cdn5.vectorstock.com/i/thumbs/44/99/angry-unhappy-businessman-character-vector-13964499.jpg"><a href="//www.vectorstock.com/royalty-free-vector/angry-unhappy-businessman-character-vector-13964499" title="angry unhappy businessman character vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/44/99/angry-unhappy-businessman-character-vector-13964499.jpg" title="angry unhappy businessman character" alt="angry unhappy businessman character vector image vector image"></noscript></a></li>
+						<li data-id="37538293" data-title="users haters people character pushing dislike" data-src="https://cdn4.vectorstock.com/i/thumbs/82/93/users-haters-people-character-pushing-dislike-vector-37538293.jpg"><a href="//www.vectorstock.com/royalty-free-vector/users-haters-people-character-pushing-dislike-vector-37538293" title="users haters people character pushing dislike vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/82/93/users-haters-people-character-pushing-dislike-vector-37538293.jpg" title="users haters people character pushing dislike" alt="users haters people character pushing dislike vector image vector image"></noscript></a></li>
+						<li data-id="37227228" data-title="social media harassment trolling cyber bullying" data-src="https://cdn4.vectorstock.com/i/thumbs/72/28/social-media-harassment-trolling-cyber-bullying-vector-37227228.jpg"><a href="//www.vectorstock.com/royalty-free-vector/social-media-harassment-trolling-cyber-bullying-vector-37227228" title="social media harassment trolling cyber bullying vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/72/28/social-media-harassment-trolling-cyber-bullying-vector-37227228.jpg" title="social media harassment trolling cyber bullying" alt="social media harassment trolling cyber bullying vector image vector image"></noscript></a></li>
+						<li data-id="38643425" data-title="influencer blogger having negative reactions" data-src="https://cdn1.vectorstock.com/i/thumbs/34/25/influencer-blogger-having-negative-reactions-vector-38643425.jpg"><a href="//www.vectorstock.com/royalty-free-vector/influencer-blogger-having-negative-reactions-vector-38643425" title="influencer blogger having negative reactions vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/34/25/influencer-blogger-having-negative-reactions-vector-38643425.jpg" title="influencer blogger having negative reactions" alt="influencer blogger having negative reactions vector image vector image"></noscript></a></li>
+						<li data-id="13713816" data-title="happy businessman character found oil" data-src="https://cdn2.vectorstock.com/i/thumbs/38/16/happy-businessman-character-found-oil-vector-13713816.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-businessman-character-found-oil-vector-13713816" title="happy businessman character found oil vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/38/16/happy-businessman-character-found-oil-vector-13713816.jpg" title="happy businessman character found oil" alt="happy businessman character found oil vector image vector image"></noscript></a></li>
+						<li data-id="13478976" data-title="angry caveman character run" data-src="https://cdn2.vectorstock.com/i/thumbs/89/76/angry-caveman-character-run-vector-13478976.jpg"><a href="//www.vectorstock.com/royalty-free-vector/angry-caveman-character-run-vector-13478976" title="angry caveman character run vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/89/76/angry-caveman-character-run-vector-13478976.jpg" title="angry caveman character run" alt="angry caveman character run vector image vector image"></noscript></a></li>
+						<li data-id="41836320" data-title="ancient antique caveman tools" data-src="https://cdn1.vectorstock.com/i/thumbs/63/20/ancient-antique-caveman-tools-vector-41836320.jpg"><a href="//www.vectorstock.com/royalty-free-vector/ancient-antique-caveman-tools-vector-41836320" title="ancient antique caveman tools vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/63/20/ancient-antique-caveman-tools-vector-41836320.jpg" title="ancient antique caveman tools" alt="ancient antique caveman tools vector image vector image"></noscript></a></li>
+						<li data-id="42320498" data-title="cave age people family tribe isolated set" data-src="https://cdn4.vectorstock.com/i/thumbs/04/98/cave-age-people-family-tribe-isolated-set-vector-42320498.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cave-age-people-family-tribe-isolated-set-vector-42320498" title="cave age people family tribe isolated set vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/04/98/cave-age-people-family-tribe-isolated-set-vector-42320498.jpg" title="cave age people family tribe isolated set" alt="cave age people family tribe isolated set vector image vector image"></noscript></a></li>
+						<li data-id="42245005" data-title="caveman character with his personal weapon tools" data-src="https://cdn1.vectorstock.com/i/thumbs/50/05/caveman-character-with-his-personal-weapon-tools-vector-42245005.jpg"><a href="//www.vectorstock.com/royalty-free-vector/caveman-character-with-his-personal-weapon-tools-vector-42245005" title="caveman character with his personal weapon tools vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/50/05/caveman-character-with-his-personal-weapon-tools-vector-42245005.jpg" title="caveman character with his personal weapon tools" alt="caveman character with his personal weapon tools vector image vector image"></noscript></a></li>
+						<li data-id="41906837" data-title="caveman family people characters isolated cartoon" data-src="https://cdn3.vectorstock.com/i/thumbs/68/37/caveman-family-people-characters-isolated-cartoon-vector-41906837.jpg"><a href="//www.vectorstock.com/royalty-free-vector/caveman-family-people-characters-isolated-cartoon-vector-41906837" title="caveman family people characters isolated cartoon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/68/37/caveman-family-people-characters-isolated-cartoon-vector-41906837.jpg" title="caveman family people characters isolated cartoon" alt="caveman family people characters isolated cartoon vector image vector image"></noscript></a></li>
+						<li data-id="41836196" data-title="cavemen barbarian family tribe characters" data-src="https://cdn2.vectorstock.com/i/thumbs/61/96/cavemen-barbarian-family-tribe-characters-vector-41836196.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cavemen-barbarian-family-tribe-characters-vector-41836196" title="cavemen barbarian family tribe characters vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/61/96/cavemen-barbarian-family-tribe-characters-vector-41836196.jpg" title="cavemen barbarian family tribe characters" alt="cavemen barbarian family tribe characters vector image vector image"></noscript></a></li>
+						<li data-id="41906668" data-title="happy smiling caveman running and hunting" data-src="https://cdn4.vectorstock.com/i/thumbs/66/68/happy-smiling-caveman-running-and-hunting-vector-41906668.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-smiling-caveman-running-and-hunting-vector-41906668" title="happy smiling caveman running and hunting vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/66/68/happy-smiling-caveman-running-and-hunting-vector-41906668.jpg" title="happy smiling caveman running and hunting" alt="happy smiling caveman running and hunting vector image vector image"></noscript></a></li>
+						<li data-id="38643487" data-title="coal mining engineer man character" data-src="https://cdn3.vectorstock.com/i/thumbs/34/87/coal-mining-engineer-man-character-vector-38643487.jpg"><a href="//www.vectorstock.com/royalty-free-vector/coal-mining-engineer-man-character-vector-38643487" title="coal mining engineer man character vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/34/87/coal-mining-engineer-man-character-vector-38643487.jpg" title="coal mining engineer man character" alt="coal mining engineer man character vector image vector image"></noscript></a></li>
+						<li data-id="38643492" data-title="miner worker man character holding peace coal" data-src="https://cdn3.vectorstock.com/i/thumbs/34/92/miner-worker-man-character-holding-peace-coal-vector-38643492.jpg"><a href="//www.vectorstock.com/royalty-free-vector/miner-worker-man-character-holding-peace-coal-vector-38643492" title="miner worker man character holding peace coal vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/34/92/miner-worker-man-character-holding-peace-coal-vector-38643492.jpg" title="miner worker man character holding peace coal" alt="miner worker man character holding peace coal vector image vector image"></noscript></a></li>
+						<li data-id="14071401" data-title="happy smiling man character climbing rock" data-src="https://cdn2.vectorstock.com/i/thumbs/14/01/happy-smiling-man-character-climbing-rock-vector-14071401.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-smiling-man-character-climbing-rock-vector-14071401" title="happy smiling man character climbing rock vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/14/01/happy-smiling-man-character-climbing-rock-vector-14071401.jpg" title="happy smiling man character climbing rock" alt="happy smiling man character climbing rock vector image vector image"></noscript></a></li>
+						<li data-id="37726880" data-title="set different water drops blob splash" data-src="https://cdn1.vectorstock.com/i/thumbs/68/80/set-different-water-drops-blob-splash-vector-37726880.jpg"><a href="//www.vectorstock.com/royalty-free-vector/set-different-water-drops-blob-splash-vector-37726880" title="set different water drops blob splash vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/68/80/set-different-water-drops-blob-splash-vector-37726880.jpg" title="set different water drops blob splash" alt="set different water drops blob splash vector image vector image"></noscript></a></li>
+						<li data-id="13964451" data-title="hot weather and summer day" data-src="https://cdn2.vectorstock.com/i/thumbs/44/51/hot-weather-and-summer-day-vector-13964451.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hot-weather-and-summer-day-vector-13964451" title="hot weather and summer day vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/44/51/hot-weather-and-summer-day-vector-13964451.jpg" title="hot weather and summer day" alt="hot weather and summer day vector image vector image"></noscript></a></li>
+						<li data-id="37809281" data-title="people man woman operator journalist paparazzi" data-src="https://cdn2.vectorstock.com/i/thumbs/92/81/people-man-woman-operator-journalist-paparazzi-vector-37809281.jpg"><a href="//www.vectorstock.com/royalty-free-vector/people-man-woman-operator-journalist-paparazzi-vector-37809281" title="people man woman operator journalist paparazzi vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/92/81/people-man-woman-operator-journalist-paparazzi-vector-37809281.jpg" title="people man woman operator journalist paparazzi" alt="people man woman operator journalist paparazzi vector image vector image"></noscript></a></li>
+						<li data-id="13479056" data-title="retro disco dancer character" data-src="https://cdn2.vectorstock.com/i/thumbs/90/56/retro-disco-dancer-character-vector-13479056.jpg"><a href="//www.vectorstock.com/royalty-free-vector/retro-disco-dancer-character-vector-13479056" title="retro disco dancer character vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/90/56/retro-disco-dancer-character-vector-13479056.jpg" title="retro disco dancer character" alt="retro disco dancer character vector image vector image"></noscript></a></li>
+						<li data-id="14549351" data-title="happy smiling african leader flat cartoon" data-src="https://cdn2.vectorstock.com/i/thumbs/93/51/happy-smiling-african-leader-flat-cartoon-vector-14549351.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-smiling-african-leader-flat-cartoon-vector-14549351" title="happy smiling african leader flat cartoon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/93/51/happy-smiling-african-leader-flat-cartoon-vector-14549351.jpg" title="happy smiling african leader flat cartoon" alt="happy smiling african leader flat cartoon vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-by_prettyvectors" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="/royalty-free-vectors/over-vectors">Over</a></li>
+					<li><a href="/royalty-free-vectors/man-vectors">Man</a></li>
+					<li><a href="/royalty-free-vectors/down-vectors">Down</a></li>
+					<li><a href="/royalty-free-vectors/clumsy-vectors">Clumsy</a></li>
+					<li><a href="/royalty-free-vectors/dropped-vectors">Dropped</a></li>
+					<li><a href="/royalty-free-vectors/fall-vectors">Fall</a></li>
+					<li><a href="/royalty-free-vectors/drop-vectors">Drop</a></li>
+					<li><a href="/royalty-free-vectors/stumble-vectors">Stumble</a></li>
+					<li><a href="/royalty-free-vectors/character-vectors">Character</a></li>
+					<li><a href="/royalty-free-vectors/stone-vectors">Stone</a></li>
+					<li><a href="/royalty-free-vectors/stumbled-vectors">Stumbled</a></li>
+					<li><a href="/royalty-free-vectors/off-vectors">Off</a></li>
+					<li><a href="/royalty-free-vectors/accident-vectors">Accident</a></li>
+					<li><a href="/royalty-free-vectors/food-vectors">Food</a></li>
+					<li><a href="/royalty-free-vectors/cartoon-vectors">Cartoon</a></li>
+					<li><a href="/royalty-free-vectors/crash-vectors">Crash</a></li>
+					<li><a href="/royalty-free-vectors/ground-vectors">Ground</a></li>
+					<li><a href="/royalty-free-vectors/careless-vectors">Careless</a></li>
+					<li><a href="/royalty-free-vectors/sad-vectors">Sad</a></li>
+					<li><a href="/royalty-free-vectors/mistake-vectors">Mistake</a></li>
+					<li><a href="/royalty-free-vectors/angry-vectors">Angry</a></li>
+					<li><a href="/royalty-free-vectors/kitchen-vectors">Kitchen</a></li>
+					<li><a href="/royalty-free-vectors/problem-vectors">Problem</a></li>
+					<li><a href="/royalty-free-vectors/carelessness-vectors">Carelessness</a></li>
+					<li><a href="/royalty-free-vectors/unexpected-vectors">Unexpected</a></li>
+					<li><a href="/royalty-free-vectors/supermarket-vectors">Supermarket</a></li>
+					<li><a href="/royalty-free-vectors/oops-vectors">Oops</a></li>
+					<li><a href="/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="/royalty-free-vectors/fun-vectors">Fun</a></li>
+					<li><a href="/royalty-free-vectors/flat-vectors">Flat</a></li>
+					<li><a href="/royalty-free-vectors/anger-vectors">Anger</a></li>
+					<li><a href="/royalty-free-vectors/concept-vectors">Concept</a></li>
+					<li><a href="/royalty-free-vectors/destroy-vectors">Destroy</a></li>
+					<li><a href="/royalty-free-vectors/delicious-vectors">Delicious</a></li>
+					<li><a href="/royalty-free-vectors/goods-vectors">Goods</a></li>
+					<li><a href="/royalty-free-vectors/frustration-vectors">Frustration</a></li>
+					<li><a href="/royalty-free-vectors/culinary-vectors">Culinary</a></li>
+					<li><a href="/royalty-free-vectors/catering-vectors">Catering</a></li>
+					<li><a href="/royalty-free-vectors/dish-vectors">Dish</a></li>
+					<li><a href="/royalty-free-vectors/failure-vectors">Failure</a></li>
+					<li><a href="/royalty-free-vectors/failed-vectors">Failed</a></li>
+					<li><a href="/royalty-free-vectors/guy-vectors">Guy</a></li>
+					<li><a href="/royalty-free-vectors/male-vectors">Male</a></li>
+					<li><a href="/royalty-free-vectors/shop-vectors">Shop</a></li>
+					<li><a href="/royalty-free-vectors/supply-vectors">Supply</a></li>
+					<li><a href="/royalty-free-vectors/stress-vectors">Stress</a></li>
+					<li><a href="/royalty-free-vectors/trouble-vectors">Trouble</a></li>
+					<li><a href="/royalty-free-vectors/tired-vectors">Tired</a></li>
+					<li><a href="/royalty-free-vectors/tray-vectors">Tray</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="/" title="Home">Home</a></li>
+					<li class="sel"><a href="/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="/signup" title="Join Now">Join Now</a></li>
+						<li><a href="/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="/?signup=1&contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock&reg;">VectorStock&reg;</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				&copy; 2023. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="/CQ4UIBT2bbu+hdO54Vvg67XUmoV8xLYp6bhO1+7Hl4=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":57,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body>
+</html>
