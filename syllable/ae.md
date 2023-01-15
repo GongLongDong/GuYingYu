@@ -3,6 +3,8 @@
 > ae羊声mae元音
 > = ae is the vowel of sheep meowing
 
+ ![](/images/sheep.jpeg)
+
 ## bad/baede/
 
 * bad【En】 = ba - bae【癍】+ d - de【得】
@@ -21,8 +23,8 @@
 ## bag/baege/
 
 * bag【En】= ba - bae【瓣｜伴】+ g - ge【個】
-* bagge【mid En】= bae【瓣｜伴】+ gge【個】
-* baggi【old En】= bae【瓣｜伴】+ gg【個】+ ye【一】
+* bagge【mid En】= ba - bae【瓣｜伴】+ gge - ge【個】
+* baggi【old En】= ba - bae【瓣｜伴】+ gg - ge【個】+ i - ye【一】
 
 > explanation of original Chinese pronunciations and characters 
  
@@ -37,7 +39,7 @@
 
 ## bam/baemu/
 
-* bam【En】= ba - bae【绊】+ mu【毋】
+* bam【En】= ba - bae【绊】+ m - mu【毋】
 
 > explanation of original Chinese pronunciations and characters 
 
@@ -47,7 +49,24 @@
 
 * bae【绊】- stumbled by arock or a trap
 * mu【毋】- closed
-* combined meanings = stumbled by arock or a trap and the face stuck close to the ground or the trap closed
+* combined meanings = stumbled by a rock or a trap and the face stuck close to the ground or the trap closed
+
+## ban/baen/
+
+* ban【En】= ba - bae【颁】+ n - eng【嗯】
+* bannen【mid En】= ba - bae【颁】+ nnen - neng【能】
+* bannan【old En】= ba - bae【颁】+ nnan - neng【能】
+* bannen【De】=  ba - bae【颁】+ nnen - neng【能】
+
+> explanation of original Chinese pronunciations and characters 
+
+![](/images/issue_a_decree.jpeg)
+
+* bae【颁】= summon, command, proclaim, issue
+* eng【嗯】= confirm in spoken language
+* neng【能】= confirm 
+* combined meanings = officially issue a decree which was normanlly prohibition in ancient times
+
 
 ## sad/saede/
 
