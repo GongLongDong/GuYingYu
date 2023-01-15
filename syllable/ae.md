@@ -47,7 +47,7 @@
 
 ![](/images/mouse_traps.jpeg)
 
-* bae【绊】- stumbled by arock or a trap
+* bae【绊】- stumbled by a rock or a trap
 * mu【毋】- closed
 * combined meanings = stumbled by a rock or a trap and the face stuck close to the ground or the trap closed
 
@@ -66,6 +66,40 @@
 * eng【嗯】= confirm in spoken language
 * neng【能】= confirm 
 * combined meanings = officially issue a decree which was normanlly prohibition in ancient times
+
+## bap/baepe/
+
+* bap【En】= ba - bae【扮】+ p - pe【拨｜𧸻】
+
+![](/images/roll_hair.jpeg)
+
+> explanation of original Chinese pronunciations and characters 
+
+* bae【扮】= grooming and combing hair
+* pe【拨】= toggle a handful of something
+* pe【𧸻】= wavy hair
+* combined meanings = curl the hair for dressing up
+
+## bat/baete/
+
+* bat【En】= ba - bae【板｜瓣】+ t - te【挩】
+* bakke【mid En】= ba - bae【板｜瓣】+ kke - ke【磕】
+
+![瓣+挩](/images/bat_animal.webp)
+
+![挩+挩](/images/bat_verb.jpeg)
+
+
+> explanation of original Chinese pronunciations and characters 
+
+* bae【板】= board or plate
+* bae【瓣】= petal 
+* te【挩】= light touch or squeeze
+* ke【磕】= press or squeeze
+* combined meanings =
+  * （mammal）= a animal wrapped in petals alike
+  * （verb）= hit with a board object
+
 
 
 ## sad/saede/
