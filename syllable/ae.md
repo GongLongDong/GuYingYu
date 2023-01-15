@@ -11,7 +11,7 @@
 
 
 
- ![](/images/bad%20apple.png | width=100)
+ ![](/images/bad_apple.png)
 
 ## a
 
